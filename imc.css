@@ -1,0 +1,18 @@
+/*Quadrado que esta escrito cadastro*/
+#cadastro_td {
+    background-color: #E0F8E0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    text-align: center;
+}
+
+
+table {
+    border: 2px solid black;
+}
+
+table {
+    width: 30%;
+
+    background-color: darkolivegreen;
+}
