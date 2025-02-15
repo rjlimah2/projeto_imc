@@ -1,4 +1,4 @@
-/*Quadrado que esta escrito cadastro*/
+/*Quadrado que esta escrito cadastro
 #cadastro_td {
     background-color: #E0F8E0;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -6,13 +6,34 @@
     text-align: center;
 }
 
-
 table {
     border: 2px solid black;
+    width: 30%;
+    background-color: darkolivegreen;
 }
 
-table {
-    width: 30%;
+tr {
+    border: 1px solid blue;
+}
+    */
 
-    background-color: darkolivegreen;
+table{
+    border: 2px solid;
+    height: 100px;
+    width: 500px;
+    position: relative;
+    top: 100px;
+    left: 100px;
+}
+
+#cadastro_td{
+    font-size: 50px;
+    text-align: center;
+    height: 100px;
+    padding: 20px;
+}
+
+td{
+    border: 1px solid;
+    padding: 5px;
 }
