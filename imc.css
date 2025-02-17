@@ -1,39 +1,53 @@
-/*Quadrado que esta escrito cadastro
-#cadastro_td {
-    background-color: #E0F8E0;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 20px;
-    text-align: center;
+body{
+    background-color: antiquewhite;
 }
-
-table {
-    border: 2px solid black;
-    width: 30%;
-    background-color: darkolivegreen;
-}
-
-tr {
-    border: 1px solid blue;
-}
-    */
 
 table{
+    font-style: italic;
+    background-color: #4CAF50;
+    color: #9C27B0;
+    font-size: 24px;
     border: 2px solid;
-    height: 100px;
     width: 500px;
+    height: 100px;
     position: relative;
     top: 100px;
     left: 100px;
+    border-collapse: collapse;
 }
 
-#cadastro_td{
+#cadastro_th{
     font-size: 50px;
     text-align: center;
     height: 100px;
-    padding: 20px;
+    padding: 10px;
+    color: #9C27B0;
 }
 
 td{
-    border: 1px solid;
     padding: 5px;
+    width: 300px;
+    text-align: left;
+    vertical-align: middle;
+    display:flex;
+}
+
+input{
+    width: 70%;
+    padding: 3px;
+    box-sizing: border-box;
+    display: block;
+    margin: 0 auto;
+}
+
+input[name="enviar"]{
+    background-color: #AB47BC;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+input[name="enviar"]:hover{
+    background-color: #FF9800;
 }
