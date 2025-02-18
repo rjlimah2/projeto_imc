@@ -7,44 +7,46 @@ table{
     background-color: #4CAF50;
     color: #9C27B0;
     font-size: 24px;
-    border: 2px solid;
-    width: 500px;
-    height: 100px;
-    position: relative;
-    top: 100px;
-    left: 100px;
+    border: 2px solid #388E3C;
+    width: 80%;
+    max-width: 600px;
+    margin: 50px auto;
+    text-align: center;
     border-collapse: collapse;
 }
 
 #cadastro_th{
     font-size: 50px;
     text-align: center;
-    height: 100px;
-    padding: 10px;
+    padding: 15px;
     color: #9C27B0;
 }
 
 td{
     padding: 5px;
-    width: 300px;
-    text-align: left;
     vertical-align: middle;
     display:flex;
 }
 
 input{
     width: 70%;
-    padding: 3px;
-    box-sizing: border-box;
+    max-width: 300px;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
     display: block;
     margin: 0 auto;
+    box-sizing: border-box;
 }
 
-input[name="enviar"]{
+input[type="submit"]{
     background-color: #AB47BC;
     color: white;
     padding: 10px 20px;
     border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    transition: background 0.3s ease;
     cursor: pointer;
 }
 
