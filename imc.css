@@ -1,55 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Arbutus&family=DynaPuff:wght@400..700&display=swap');
+
 body{
     background-color: antiquewhite;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding-top: 50px;
+
 }
 
 table{
-    font-style: italic;
+    border-collapse: collapse; /*Faz a linha grudar uma na outra*/
+    border: 1px solid purple;
+    width: 400px;
+    /*height: 300px;*/
     background-color: #4CAF50;
     color: #9C27B0;
+    background: linear-gradient(to bottom, rgb(0 128 0 / 30%), rgb(50 205 50 / 80%));
+    border-radius: 10px;
+    overflow: hidden; 
+    box-shadow: 4px 4px 10px rgb(0, 0, 0, 0.2);
+}
+
+th, td{
+    font-family: "DynaPuff", serif;
+    padding: 20px;
+    text-align: center;
+    letter-spacing: 2px; /*Espaço entre letras*/
+}
+
+th{
     font-size: 24px;
-    border: 2px solid #388E3C;
-    width: 80%;
-    max-width: 600px;
-    margin: 50px auto;
-    text-align: center;
-    border-collapse: collapse;
-}
-
-#cadastro_th{
-    font-size: 50px;
-    text-align: center;
-    padding: 15px;
-    color: #9C27B0;
-}
-
-td{
-    padding: 5px;
-    vertical-align: middle;
-    display:flex;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
 }
 
 input{
-    width: 70%;
-    max-width: 300px;
+    width: 60%;
     padding: 8px;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    display: block;
-    margin: 0 auto;
-    box-sizing: border-box;
+    border-radius: 5px;
 }
 
-input[type="submit"]{
-    background-color: #AB47BC;
+input[name="botao"]{
+    color: rgb(75 0 130);
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 50px;
+}
+
+.botao_enviar{
+    background-color: rgb(0 128 0);
     color: white;
-    padding: 10px 20px;
-    border: none;
-    border-radius: 4px;
-    font-size: 16px;
-    transition: background 0.3s ease;
-    cursor: pointer;
 }
 
-input[name="enviar"]:hover{
-    background-color: #FF9800;
+.botao_enviar:hover{
+    background-color: rgb(46, 158, 46);
+}
+
+.botao_limpar{
+    background-color: rgb(255 99 71);
+    color: white;
+}
+
+.botao_limpar:hover{
+    background-color: rgb(255 0 0);
+}
+
+.botao_enviar, .botao_limpar{
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center;
+    transition: 0.3s;
+    width: 100%;
+    padding: 10px;
+    border: none;
+}
+
+
+div{
+    float: left;
 }

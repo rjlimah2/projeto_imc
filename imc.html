@@ -4,34 +4,44 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>IMC - Índice de Massa Corporal</title>
-    <link rel="stylesheet" type="text/css" href="imc.css">
+    <link href="https://fonts.googleapis.com/css2?family=DynaPuff:wght@400..700&display=swap">
+    <link rel="stylesheet"type="text/css" href="imc.css">
+
 </head>
 <body>
-    <form action="rodrigodjjl@gmail.com" method="get">
-    <table>
-            <th id="cadastro_th">Cadastro</th>
 
-        <tr class="alinhar-input">
+    <div>Realize o teste aqui para verificar se você está acima do peso."</div>
+
+    <form method="get">
+    <table>
+        <th>Consultar IMC</th>
+
+        <tr>
             <td>Nome:<input type=text name="nome" maxlength="30" placeholder="Digite seu nome"></td>
         </tr>
-        
-        <tr class="alinhar-input">
+
+        <tr>  
             <td>Idade:<input type=number name="idade" maxlength="3" placeholder="Digite sua idade"></td>
         </tr>
-        
-        <tr class="alinhar-input">
-            <td>Peso:<input type="number" name="peso" maxlength="3" placeholder="Digite seu peso"></td>
-        </tr>
-        
-        <tr class="alinhar-input">
-            <td>Altura:<input type="number" name="altura" maxlength="4" placeholder="Digite sua altura"></td>
+
+        <tr>
+            <td>Peso:<input type="text" name="peso" maxlength="3" placeholder="Digite seu peso"></td>
         </tr>
 
-            <tr class="alinhar-input">
-            <td><input type="submit" name="enviar" value="Enviar Formulário"></td>
-            </tr>
-        </form>
+        <tr>
+            <td>Altura:<input type="text" name="altura" maxlength="4" placeholder="Digite sua altura"></td>
+        </tr>
 
-</table>
+        <tr>
+            <td><input class="botao_enviar" type="submit" name="botao_enviar" value="Enviar Formulário"></td>
+        </tr>
+
+        <tr>
+            <td>
+            <input class="botao_limpar" type="reset" value="Limpar">
+            </td>
+        </tr>
+    </form>
+    </table>
 </body>
 </html>
