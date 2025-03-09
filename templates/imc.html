@@ -5,27 +5,23 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>IMC - Índice de Massa Corporal</title>
-    <link rel="stylesheet" type="text/css" href="imc.css">
+    <link rel="stylesheet" type="text/css" href="/static/imc.css">
 </head>
 
 <body>
-    
+
     <div class="div_principal">
         <header>Um Peso uma Medida
         </header>
         <p>Você esta acima do peso?
         <p>Realize o teste aqui!!!</p>
-        <div class="icone_imagem">
-            <img src="/imagem/icone.jpg" class="tamanho_imagem">
-        </div>
-    </div>
-    <div>
+
         <form method="get">
             <table>
                 <th>Consultar IMC</th>
 
                 <tr>
-                    <td>Nome:<input type=text name="nome" maxlength="30" placeholder="Digite seu nome"></td>
+                    <td>Nome:<input type=text name="nome" maxlength="40" placeholder="Digite seu nome"></td>
                 </tr>
 
                 <tr>
@@ -53,6 +49,12 @@
         </form>
         </table>
     </div>
+
+    <!--
+    <div class="icone_imagem">
+            <img src="/imagem/icone.jpg" class="tamanho_imagem">
+        </div>
+-->
 </body>
 
 </html>
